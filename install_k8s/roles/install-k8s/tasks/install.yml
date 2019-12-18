@@ -8,7 +8,7 @@
 
 - name: Adicionando o repo do k8s
   apt_repository:
-    repo: deb http://apt.kubernetes.io/ kubernetes-stretch main
+    repo: deb http://apt.kubernetes.io/ kubernetes-xenial main
     state: present
 
 - name: Install k8s packages
